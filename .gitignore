@@ -2,3 +2,6 @@
 
 # dependencies
 /quartz-coin/node_modules
+
+#builds
+/quartz-coin/build
