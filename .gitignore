@@ -5,4 +5,6 @@
 
 #builds
 /quartz-coin/build
-build/
+/build
+
+/ILP_server/serverConfig.json
