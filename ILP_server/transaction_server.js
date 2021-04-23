@@ -2,6 +2,11 @@ var http = require('http');
 var https = require('https');
 var url = require('url');
 
+var configFile = require('./serverConfig.json');
+
+var hostname = configFile.hostname;
+var port = configFile.port;
+
 
 //create a server object:
 http.createServer(function (r, res) {
@@ -17,8 +22,8 @@ http.createServer(function (r, res) {
     //console.log(r);
 
     const options = {
-      hostname: '192.168.128.4',
-      port: 7770,
+      hostname: hostname,
+      port: port,
       path: '/accounts/' + q.from + '/payments',
       method: 'POST',
       headers: {
