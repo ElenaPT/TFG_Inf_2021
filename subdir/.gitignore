@@ -1,0 +1,10 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/quartz-coin/node_modules
+
+#builds
+/quartz-coin/build
+/build
+
+/ILP_server/serverConfig.json
