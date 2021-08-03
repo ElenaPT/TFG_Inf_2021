@@ -247,7 +247,7 @@ class DonationButton extends Component {
               Reward academic papers and
               empower scholars with{""+" "}
               <Link href='http://quartz.to' target='blank' style={{color: "#ffffff"}}>
-                <b>{" " + "Qaurtz"}</b>
+                <b>{" " + "Quartz"}</b>
               </Link>
             </Typography>
           </Grid>
